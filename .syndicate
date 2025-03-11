@@ -1,6 +1,19 @@
 name: aws-syndicate
 locks: {}
-events: []
+events:
+- operation: assemble_java_mvn
+  initiator: ravilala_vinuthna
+  bundle_name: aws-syndicate_250311.163819
+  time_start: '2025-03-11T16:38:21Z'
+  time_end: '2025-03-11T16:38:24Z'
+  duration_sec: 3.192
+  status: failed
+- operation: test
+  initiator: ravilala_vinuthna
+  time_start: '2025-03-11T16:38:21Z'
+  time_end: '2025-03-11T16:38:21Z'
+  duration_sec: 0.001
+  status: succeeded
 latest_deploy: {}
 build_projects_mapping:
   java: jsrc/main/java
